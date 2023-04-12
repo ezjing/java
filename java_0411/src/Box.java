@@ -3,6 +3,10 @@ public class Box {
     private char fillChar;
     public Box() {
         this(10, 1);
+        
+        // 선생님 풀이
+//        this.width = 10;
+//        this.height = 1;
     }
     public Box(int width, int height) {
         this.width = width;
